@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 8px;
+    box-sizing: border-box;
+    list-style: none;
+}
+.bola{
+   
+border: 1px solid #000000;
+border-radius: 8px;
+background: #995db5;
+display: flex;
+width: 240px;
+height: 240px;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+
+}
+.nevara{
+    width: 50px;
+    height: 50px;
+display: flex;
+border: 1px solid #000000;
+border-radius: 8px;
+background-color: #f7941f;
+
+}
+.bola:nth-child(1){
+    gap: 8px;
+}
+.bola:nth-child(2){
+    gap: 8px;
+    flex-direction: column;
+}
+.bola:nth-child(3){
+gap: 8px;
+flex-wrap: wrap
+
+}
+.bola:nth-child(4){
+    justify-content: space-between;
+}
+.bola:nth-child(5){
+    gap: 8px;
+}
+.bola:nth-child(6){
+    gap: 8px;
+    flex-direction: row-reverse;
+}
+.bola:nth-child(7){
+    gap: 8px;
+    justify-content: center;
+}
+.bola:nth-child(8){
+    justify-content: space-between;
+}
+.bola:nth-child(9){
+    gap: 8px;
+}
+.bola:nth-child(10){
+    gap: 8px;
+    align-items: end;
+}
+.bola:nth-child(11){
+    gap: 8px;
+    align-items: center;
+}
+.bola:nth-child(12){
+    gap: 25px;
+justify-content: center;
+}
