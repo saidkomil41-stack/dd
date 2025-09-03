@@ -37,9 +37,13 @@ background-color: #f7941f;
     flex-direction: column;
 }
 .bola:nth-child(3){
-gap: 8px;
-flex-wrap: wrap
+ flex-wrap:wrap;
+ gap: 7px; 
+ padding-bottom: 120px
 
+ 
+ ;
+ 
 }
 .bola:nth-child(4){
     justify-content: space-between;
